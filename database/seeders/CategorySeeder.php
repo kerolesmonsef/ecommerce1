@@ -19,5 +19,6 @@ class CategorySeeder extends Seeder
 
         Category::factory(15)->create();
 
+        Category::factory(20)->create();
     }
 }
